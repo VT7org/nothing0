@@ -12,9 +12,9 @@ load_dotenv()
 
 # Get it from my.telegram.org
 
-API_ID = int(getenv("API_ID", ""))
+API_ID = int(getenv("API_ID", "18136872"))
 
-API_HASH = getenv("API_HASH", "")
+API_HASH = getenv("API_HASH", "312d861b78efcd1b02183b2ab52a83a4")
 
 
 ## Get it from @Botfather in Telegram.
@@ -45,12 +45,12 @@ SONG_DOWNLOAD_DURATION = int(
 
 
 # You'll need a Private Group ID for this.
-LOGGER_ID = int(getenv("LOGGER_ID", ""))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002030443562))
 
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "7048354045").split())
+    map(int, getenv("OWNER_ID", "5960968099").split())
 )  # Input type must be interger
 
 
@@ -98,7 +98,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", "")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/venombolteop/VenomMusic",
+    "https://github.com/VT7org/BillaMusic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 
@@ -111,11 +111,11 @@ GIT_TOKEN = getenv(
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/TomatoFist"
+    "SUPPORT_CHANNEL", "https://t.me/BillaSpace"
 )
 
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/Itz_venom_family"
+    "SUPPORT_GROUP", "https://t.me/BillaCore"
 )  
 
 
@@ -132,7 +132,7 @@ TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
 
 # Your Github Repo.. Will be shown on /start Command
-GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/venombolteop/VenomMusic")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/bhootnath/billanath2")
 
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
@@ -196,17 +196,17 @@ autoclean = []
 
 START_IMG_URL = getenv(
     "START_IMG_URL",
-    "https://te.legra.ph/file/7d9c0fec898bbee09ba95.jpg",
+    "https://graph.org/file/11d1cd0307716a75552ab-f992a8e28b0f54a1e2.jpg",
 )
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://te.legra.ph/file/95fcd2ec79b527ae3fac4.jpg",
+    "https://graph.org/file/5b8ec611f351181654684-e74e570c78774ecf15.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
     "PLAYLIST_IMG_URL",
-    "https://te.legra.ph/file/f739e6067725fa88ce8d3.jpg",
+    "https://graph.org/file/1bcbb26caa7155f52e000-ad152dbea5f1a0c7ef.jpg",
 )
 
 GLOBAL_IMG_URL = getenv(
@@ -216,22 +216,22 @@ GLOBAL_IMG_URL = getenv(
 
 STATS_IMG_URL = getenv(
     "STATS_IMG_URL",
-    "https://te.legra.ph/file/c66abbf490158487fdb72.jpg",
+    "https://graph.org/file/efbb051b7aad4b2ad7d37-c8e4ddd2960c91be07.jpg",
 )
 
 TELEGRAM_AUDIO_URL = getenv(
     "TELEGRAM_AUDIO_URL",
-    "https://te.legra.ph/file/3d130381bf5945c139023.jpg",
+    "https://graph.org/file/da48401d509a23b49f7a3-aaff4c6be26ea19fc8.jpg",
 )
 
 TELEGRAM_VIDEO_URL = getenv(
     "TELEGRAM_VIDEO_URL",
-    "https://te.legra.ph/file/d3663021fb51e14a84aa9.jpg",
+    "https://graph.org/file/da48401d509a23b49f7a3-aaff4c6be26ea19fc8.jpg",
 )
 
 STREAM_IMG_URL = getenv(
     "STREAM_IMG_URL",
-    "https://te.legra.ph/file/248e6858de3f2e37393c1.jpg",
+    "https://graph.org/file/94abb12471c456fb43459-2abe114d4f925a7010.jpg",
 )
 
 SOUNCLOUD_IMG_URL = getenv(
@@ -241,7 +241,7 @@ SOUNCLOUD_IMG_URL = getenv(
 
 YOUTUBE_IMG_URL = getenv(
     "YOUTUBE_IMG_URL",
-    "https://te.legra.ph/file/98622051acad1988886be.jpg",
+    "https://graph.org/file/0be8d843695876376efd6-aedad17042109171a2.jpg",
 )
 
 SPOTIFY_ARTIST_IMG_URL = getenv(
